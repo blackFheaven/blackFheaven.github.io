@@ -161,6 +161,132 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-while的实例" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/13/while的实例/">while的应用（敏感词汇）</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/13/while的实例/" class="archive-article-date">
+  	<time datetime="2018-07-13T00:54:13.373Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-13</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very fifth post. </p>
+<h2 id="while的应用"><a href="#while的应用" class="headerlink" title="while的应用"></a>while的应用</h2><h3 id="检测用户输入内容中是否包含敏感字符"><a href="#检测用户输入内容中是否包含敏感字符" class="headerlink" title="检测用户输入内容中是否包含敏感字符"></a>检测用户输入内容中是否包含敏感字符</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">''</span><span class="string">'</span></span><br><span class="line"><span class="string">课题：等待用户输入内容，检测用户输入内容中是否包含敏感字符。</span></span><br><span class="line"><span class="string">姓名：冯聪麟</span></span><br><span class="line"><span class="string">时间：2018.7.13</span></span><br><span class="line"><span class="string">'</span><span class="string">''</span></span><br><span class="line">$</span><br><span class="line">sensitive_word=<span class="string">"苍老师 嘻哈"</span></span><br><span class="line"><span class="keyword">while</span> (1):</span><br><span class="line">    order_word=input(<span class="string">'欢迎来到论坛，发帖输入i,退出输入e:'</span>)</span><br><span class="line">    <span class="keyword">if</span> order_word==<span class="string">'i'</span>:</span><br><span class="line">        count=input(<span class="string">'请输入帖子内容：'</span>)</span><br><span class="line">        <span class="keyword">for</span> item <span class="keyword">in</span> sensitive_word:</span><br><span class="line">            <span class="keyword">if</span> (item <span class="keyword">in</span> count):</span><br><span class="line">                <span class="built_in">print</span>(<span class="string">'存在敏感字符请重新输入'</span>)</span><br><span class="line">                <span class="built_in">break</span></span><br><span class="line">        <span class="built_in">print</span>(count)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">'bye'</span>)</span><br><span class="line">        <span class="built_in">break</span></span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/07/13/while的实例/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-循环语句1到100阶乘之和" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/12/循环语句1到100阶乘之和/">循环语句，求1!+2!+3!+...+100!的和</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/12/循环语句1到100阶乘之和/" class="archive-article-date">
+  	<time datetime="2018-07-12T03:52:51.300Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-12</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very fourth post. </p>
+<h2 id="循环语句的实例"><a href="#循环语句的实例" class="headerlink" title="循环语句的实例"></a>循环语句的实例</h2><h3 id="求1-2-3-…-100-的和"><a href="#求1-2-3-…-100-的和" class="headerlink" title="求1!+2!+3!+…+100!的和"></a>求1!+2!+3!+…+100!的和</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">''</span><span class="string">'</span></span><br><span class="line"><span class="string">课题：求1!+2!+3!+...+100!的和</span></span><br><span class="line"><span class="string">姓名：冯聪麟</span></span><br><span class="line"><span class="string">时间：2018.7.12</span></span><br><span class="line"><span class="string">'</span><span class="string">''</span></span><br><span class="line"><span class="comment">#第一种</span></span><br><span class="line">sum_add=0<span class="comment">#定义阶乘之和，并置为0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(1,101):<span class="comment">#外循环，取出阶乘数1,2,3...100</span></span><br><span class="line">    sum_mul=1<span class="comment">#定义每个阶乘阶乘数，并每次置为1</span></span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> range(1,i+1):<span class="comment">#内循环，求每个阶乘数</span></span><br><span class="line">        sum_mul*=j</span><br><span class="line">    sum_add+=sum_mul<span class="comment">#1！+2!+3!+...+100!之和</span></span><br><span class="line"><span class="built_in">print</span>(sum_add)</span><br><span class="line"></span><br><span class="line"><span class="comment">#第二种</span></span><br><span class="line">sum_add=0</span><br><span class="line">sum_mul=1</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(1,101):</span><br><span class="line">    sum_mul=sum_mul*i <span class="comment">#在之前阶乘的基础上求下次阶乘,比如：3!是在2!的基础上求得。</span></span><br><span class="line">    sum_add+=sum_mul</span><br><span class="line"><span class="built_in">print</span>(sum_add)</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/07/12/循环语句1到100阶乘之和/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-条件判断" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
